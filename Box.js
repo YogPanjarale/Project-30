@@ -38,7 +38,10 @@ class Box {
         break;
     }
     //fill(this.color);
+    push();
+    strokeWeight(0);
     rect(pos.x, pos.y, this.width, this.height);
+    pop();
   }
    
 };
